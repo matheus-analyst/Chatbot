@@ -661,7 +661,23 @@ def menu_principal():
             responder_bot("Até mais!")
             break
         else:
-            responder_bot("Opção inválida. Usa 1 a 7.")
+            responder_bot("Opção inválida. Usa 1 a 7."
+                
+                        "  1 = Agendar"
+
+        "  2 = Ver todos os agendamentos"
+
+        "  3 = Ver agendamentos de uma cliente"
+
+        "  4 = Cancelar agendamento"
+
+        "  5 = Relatório do dia"
+
+        "  6 = Exportar relatório"
+
+        "  7 = Sair",
+                
+            )
 
 if __name__ == "__main__":
     menu_principal()
